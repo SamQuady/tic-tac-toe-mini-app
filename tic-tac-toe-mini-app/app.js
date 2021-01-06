@@ -1,7 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
-  document.querySelector("button").onclick = function(event) {
-  console.log('you just got clicked')
-}
+  document.getElementById("top-left").onclick = function(event) {console.log('you just got clicked')}
+  document.getElementById("top-center").onclick = function(event) {console.log('you just got clicked')}
+  document.getElementById("top-right").onclick = function(event) {console.log('you just got clicked')}
+  document.getElementById("center-left").onclick = function(event) {console.log('you just got clicked')}
+  document.getElementById("center-center").onclick = function(event) {console.log('you just got clicked')}
+  document.getElementById("center-right").onclick = function(event) {console.log('you just got clicked')}
+  document.getElementById("bottom-left").onclick = function(event) {console.log('you just got clicked')}
+  document.getElementById("bottom-center").onclick = function(event) {console.log('you just got clicked')}
+  document.getElementById("bottom-right").onclick = function(event) {console.log('you just got clicked')}
 })
 
 let turnCounter = 0;
